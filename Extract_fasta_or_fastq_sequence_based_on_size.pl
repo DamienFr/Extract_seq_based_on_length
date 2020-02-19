@@ -82,6 +82,4 @@ while ( my $seq = $fastq_in->next_seq() ) {
 }
 
 print "Process terminated, output file is $out\nIt contains $nb_out out of $nb_in sequences of original fastq/fasta file\n";
-print "This program does not check whether all the titles of the csv file are present in the fastq/fasta file. It will only extract found identifiers without warning you that some were not found"
-
 
